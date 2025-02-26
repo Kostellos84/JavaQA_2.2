@@ -7,7 +7,7 @@ public class Main {
             System.out.println("На вашем счету " + (supplement / 100 + score + supplement) + " рублей");
             System.out.println("Сумма начисленых бонусов: " + bonuses + " рублей");
         } else {
-            System.out.println("На вашем счету " + (supplement + score) + " Рублей");
+            System.out.println("На вашем счету " + (supplement + score) + " рублей");
             System.out.println("Для получения бонусов сумма пополнения доложна быть более тысячи рублей");
         }
     }
